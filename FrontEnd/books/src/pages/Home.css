@@ -7,11 +7,15 @@
 .cabecalho{
     display: flex;
     gap: 20px;
-    margin-top: 20px;
+    padding-top: 20px;
     border-bottom: 2px solid Grey;
     align-items: center;
+    background-color: orange;
     
     
+}
+body {
+    background-color: #F0F2F5;
 }
 
 a {
@@ -39,4 +43,12 @@ input {
 }
 .btn {
     margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+}
+
+.link {
+    cursor: pointer;
 }

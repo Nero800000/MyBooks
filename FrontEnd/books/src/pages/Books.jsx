@@ -27,7 +27,7 @@ const Books = () => {
          <div className="container">
      <header className="cabecalho">
 
-            <Link to='/'>cadastrar</Link>
+            <Link to='/'>Cadastrar</Link>
     </header>
      <h1>Livros disponiveis</h1>
      <div className="my-books" >
@@ -37,7 +37,7 @@ const Books = () => {
 
                 <h3>{book.title}</h3>
                  <p>{book.description}</p> 
-                 <Link to={`/edit/${book._id}`}>editar</Link>
+                 <Link className="link" to={`/edit/${book._id}`}>editar</Link>
                      <Button id={book._id}/>
                
                  <p>__________________-</p>

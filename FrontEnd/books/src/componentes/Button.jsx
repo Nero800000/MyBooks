@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 import {useNavigate} from 'react-router-dom'
-
+import './Button.css'
 
 const Button = ({id}) => {
    const navigate = useNavigate()
@@ -20,7 +20,7 @@ const handleSubmit = async (e) => {
  
 }
 
-    return <button onClick={handleSubmit}>excluir</button>
+    return <button className="deletebtn" onClick={handleSubmit}>excluir</button>
 } 
 
 export default Button
