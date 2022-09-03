@@ -47,6 +47,7 @@ input {
     border-radius: 10px;
     border: none;
     background-color: orange;
+    cursor: pointer;
 }
 
 .link {
